@@ -221,9 +221,10 @@ function exportToExcel(){
   const a=document.createElement('a'); a.href=url; a.download='file_tracking_export.xls'; a.click();
 }
 
-function logout(){ localStorage.removeItem('currentUser'); window.location.href='login.html'; }
+function logout(){ localStorage.removeItem('currentUser'); window.location.href='index.html'; }
 
 renderTable();
 </script>
 </body>
 </html>
+
